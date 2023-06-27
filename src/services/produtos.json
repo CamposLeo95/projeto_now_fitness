@@ -1,0 +1,32 @@
+
+{
+    "id": 1,
+    "name": {
+        "chocolatinho": "Whey Protein Concentrada e Isolada 900g Chocolatinho",
+        "morango": "Whey Protein Concentrada e Isolada 900g Petit Suisse",
+        "chocolate": "Whey Protein Concentrada e Isolada 900g Vanilla Cream"
+    },
+    "preco": "269.90",
+    "descricao": "Whey Protein EVO é uma combinação incrível de whey protein concentrado e isolado, que foi elaborada para que atletas se beneficiem de uma perfeita associação entre sabor, valor, conveniência e misturabilidade, garantindo alta qualidade. WHEY PROTEIN EVO 900g Whey Protein EVO é uma combinação incrível de whey protein concentrado e isolado, que foi elaborada para que atletas se beneficiem de uma perfeita associação entre sabor, valor, conveniência e misturabilidade, garantindo alta qualidade. Utilizando matéria-prima importada e ingredientes de procedência 100% controlada, Whey Protein EVO é ideal para quem está ingressando no universo da suplementação esportiva e busca os benefícios da proteína como recuperação muscular e manutenção de massa magra.",
+    "url_image": 
+        {
+            "chocolate": "../assets/img/whey_choco.png",
+            "morango": "",
+            "baunilha": ""
+        },
+    "concentrado": "Embora não contenha mais caseína, esse whey ainda contém gorduras e carboidratos. A esse tipo de produto dá-se o nome de whey concentrado. É o whey mais comum e também o mais barato entre os três principais tipos de whey, e se caracteriza pela menor concentração de proteínas (70-80%) e um alto teor de lactose.",
+    "isolado": "Através de outras etapas de processamento, a lactose, gordura e demais componentes não proteicos são eliminados do whey, e o produto final é o que conhecemos como whey protein isolado. É um ótimo produto para quem busca mais proteínas e uma absorção mais rápida que a do whey concentrado, mas não quer gastar tanto com o whey hidrolisado.",
+    "ingredientes": "WHEY PROTEIN CONCENTRADO, WHEY PROTEIN ISOLADO, MIX DE VITAMINAS E MINERAIS, AROMAS IDÊNTICOS AOS DE BAUNILHA, MORANGO, CHOCOLATE, NAPOLITANO E/OU LEITE EM PÓ (ORIGINAL)",
+    "uso": "Misturar 1 medidor ou colher dosadora com 200ml de água, agitar e beber. Suplemento proteico para praticantes de atividade física.",
+    "Armazenamento": "Conservar este produto bem fechado, ao abrigo de luz e calor, em local seco e fresco, livres de odores e em sua embalagem original. Consumir em até 90 dias após aberta a embalagem.",
+    "tabela_nutricional":{
+        "valor_energetico": {
+            "agua": "116 Kcal ou 495 KJ",
+            "vd": "6"
+        },
+        "carbo": {
+            "agua":"1,9",
+            "vd": 1
+        }
+    }
+}    
