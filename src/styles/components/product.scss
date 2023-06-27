@@ -1,0 +1,132 @@
+@use '../variables.scss';
+
+.main{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 70px;
+
+    .card_image{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+        margin: 50px 0 0 0;
+        gap: 20px;
+
+        .image_main{
+            width: 300px;
+        }
+
+        .controller{
+            display: flex;
+            gap: 10px;
+
+            .btn_controller{
+                padding: 8px;
+                border: 1px solid rgb(209, 208, 208);
+                border-radius: 5px;
+                cursor: pointer;
+                background: transparent;
+            }
+        }
+    }
+
+    .product-info{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        gap: 50px;
+        padding: 20px;
+
+        .text_main{
+            font-size: variables.$font-size-medium;
+            font-weight: 700;
+            color: variables.$color-text-black;
+        }
+
+        .promotion{
+            
+            .old_price{
+                font-size: variables.$font-size-small;
+                text-decoration:line-through ;
+                color: red;
+                margin-bottom: 20px;
+
+            }
+
+            .new_price{
+                font-size: variables.$font-size-large;
+                color: variables.$color-button;
+            }
+        }
+
+
+        .buy{
+            display: flex;
+            width: 100%;
+            gap: 5px;
+
+            .input_buy::-webkit-inner-spin-button,
+            .input_buy::-webkit-outer-spin-button{
+                -webkit-appearance: none;
+            }
+
+            .input_buy[type=number]{
+                -moz-appearance: textfield;
+            }
+        
+            .input_buy{
+                width: 45px;
+                padding: 10px;
+                text-align: center;
+            }
+
+            .btn_buy{
+                flex: 1;
+                max-width: 450px;
+                background-color: variables.$color-button;
+                color: variables.$color-background;
+                border: none;
+                border-radius: 2px;
+                font-weight: 700;
+                font-size: variables.$font-size-xsmall;
+                padding: 15px;
+                cursor: pointer;
+                opacity: 0.9;
+            }
+
+            .btn_buy:hover{
+                opacity: 1;
+            }
+        }
+    }
+
+@media (min-width: 768px){
+    .card_image{
+
+        .image_main{
+            width: 540px;
+        }
+    }
+
+    .product-info{
+        
+        .text_main{
+            font-size: variables.$font-size-xlarge;
+        }
+    }
+}
+
+@media (min-width: 940px){
+    flex-direction: row;
+
+    .product-info{
+        padding: 50px;
+        text-align: start;
+
+    }
+}
+
+}
