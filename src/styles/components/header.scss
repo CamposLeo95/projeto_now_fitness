@@ -2,14 +2,16 @@
 
 .header{
     width: 100vw;
+    height: 100px;
     background-color: variables.$color-background;
     border-bottom: 1px solid gray;
     display: flex;
     align-items: center;
     justify-content: space-between;
     gap: 20px;
-    padding: 0px 20px;
-    position: relative;
+    padding: 0px 30px;
+    position: fixed;
+    top: 0;
 
     .logo{
         width: 90px;
