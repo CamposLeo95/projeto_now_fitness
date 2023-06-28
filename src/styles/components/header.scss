@@ -12,19 +12,20 @@
     padding: 0px 30px;
     position: fixed;
     top: 0;
+    z-index: 1;
 
     .logo{
         width: 90px;
     }
 
-    .pesquisa{
+    .search{
         width: 100%;
         flex: 1;
         display: flex;
         justify-content: flex-end;
         gap: 20px;
 
-        .input-pesquisa{
+        .input-search{
             width: 100%;
             max-width: 700px;     
             flex: 1;
@@ -48,6 +49,20 @@
             border: none;
         }
 
+        .itens_car{
+            width: 20px;
+            height: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: rgb(221, 2, 2);
+            color: #fff;
+            border-radius: 50%;
+            position: relative;
+            font-weight: bold;
+        }
+
+
     }
 
     .icons{
@@ -55,10 +70,14 @@
     }
 
 @media (min-width: 768px) {
-    .pesquisa{
+    .search{
 
         .mobile{
             position:static;
+        }
+
+        .btn-search{
+            display: none;
         }
     }
 }
