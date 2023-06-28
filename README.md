@@ -26,8 +26,11 @@ Project link: https://projeto-now-fitness-9xl2vb6l7-camposleo95.vercel.app/
 - [x] Contagem no carrinho
 - [x] Mostrar e esconder input de pesquisa no mobile
  
+## Tecnologias 
+- React
+- SCSS
 
-## Prerequisitos
+## Pre-requisitos
 
 - Node.js
 - npm (Node Package Manager)
@@ -44,7 +47,7 @@ git clone https://github.com/CamposLeo95/projeto_now_fitness.git
 cd poke-react
 ```
 
-3 - Install the dependencies
+3 - Instalações e dependências
 ```bash
 yarn ou npm i
 ```
@@ -54,5 +57,3 @@ yarn dev
 ```
 A aplicação irá rodar em umas das portas da sua maquina , por padrão poderá ser na porta 3000 ou 5173
 
-Contributing
-Contributions are welcome!
