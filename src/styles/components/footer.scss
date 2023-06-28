@@ -1,7 +1,7 @@
 @use '../variables.scss';
 
 .footer{
-    width: 100vw;
+    width: 100%;
     padding: 20px;
     margin-top: 20px;
     color: variables.$color-background;
@@ -13,8 +13,8 @@
     gap: 30px;
 
     .form { 
-        width: 100%;
-        padding: 20px;
+        width: 80%;
+        padding: 20px 10px;
         display: flex;
         gap: 10px;
         flex-direction: column;

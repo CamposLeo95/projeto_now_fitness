@@ -1,7 +1,7 @@
 @use '../variables.scss';
 
 .header{
-    width: 100vw;
+    width: 100%;
     height: 100px;
     background-color: variables.$color-background;
     border-bottom: 1px solid gray;
@@ -9,17 +9,16 @@
     align-items: center;
     justify-content: space-between;
     gap: 20px;
-    padding: 0px 30px;
+    padding: 0px 40px;
     position: fixed;
     top: 0;
     z-index: 1;
 
+
     .logo{
         width: 90px;
     }
-
     .search{
-        width: 100%;
         flex: 1;
         display: flex;
         justify-content: flex-end;
@@ -69,7 +68,10 @@
         width: 25px;
     }
 
+
 @media (min-width: 768px) {
+    padding: 0px 60px;
+
     .search{
 
         .mobile{
