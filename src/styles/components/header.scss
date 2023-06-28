@@ -46,9 +46,11 @@
         .button{
             background-color: transparent;
             border: none;
+            position: relative;
         }
 
         .itens_car{
+            position: absolute;
             width: 20px;
             height: 20px;
             display: flex;
@@ -57,8 +59,9 @@
             background-color: rgb(221, 2, 2);
             color: #fff;
             border-radius: 50%;
-            position: relative;
             font-weight: bold;
+            top: -10px;
+            right: -10px;
         }
 
 
